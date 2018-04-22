@@ -1,0 +1,357 @@
+body{
+	background-color: black;
+	font-size: 12px;
+}
+p{
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+.one{
+	background-color: black;
+	background-image: url('../images/banner-bg.jpg');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 110px 75px;
+	color: white;
+}
+.one-2{
+
+}
+.one-2 span{
+	display: none;
+}
+.one-2 h1,h3,h4,h5,p,a{
+	line-height: 1em;
+	margin-top: 5px;
+	margin-bottom:0px;
+}
+.one-2 p{
+	font-size: 1.1em;
+
+}
+.one-2 .btn{
+	border-radius: 0;
+	border: 1px solid white;
+	background-color: unset;
+	color: white;
+}
+.two{
+	background-color: white;
+	padding-top: 32px;
+}
+.two p{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.two img{
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.three{
+	background-color: black;
+	padding-top: 32px;
+	color: white;
+	padding-bottom: 32px;
+}
+.three p,.three h2{
+text-align: right;
+}
+
+.three img{
+	width: 60%;
+	margin:0 auto;
+}
+.three input{
+	padding: 24px;
+}
+.three .btn{
+	border-radius: 0;
+	padding: 16px;
+}
+
+.boundary-2{
+width: 90%;
+ border: 2px solid grey;
+ margin-left: -17px;
+ height: 310px;
+ margin-bottom: 100px;
+}
+.four{
+	background-color: white;
+	padding-top: 32px;
+	color: black;
+	padding-bottom: 32px;
+	border-bottom: 4px solid teal;
+}
+.four p{
+	padding:32px 0;
+
+}
+.carousel-inner{
+	position: relative;
+}
+.slide-bottom{
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+.carousel-control.left,.carousel-control.right{
+	background-image: unset;
+	background-color: unset;
+}
+.carousel-control span{
+	color: black;
+}
+.item img{
+	width: 100%;
+}
+.five{
+
+	background-color: black;
+	padding: 32px;
+}
+.five img{
+	margin: 16px auto;
+	margin-bottom: 8px;
+}
+.five .btn{
+	margin:0 auto;
+	display: block;
+}
+
+.navbar-inverse{
+	background-color: unset;
+	border-color: unset;
+}
+.navbar{
+	height: 80px;
+	margin-top: 8px;
+	border-radius: 0;
+	border:unset;
+}
+
+.navbar-brand img{
+	height: 40px;
+}
+.navbar-toggle{
+	margin-top: 15px;
+}
+.collapse{
+	margin-top: 70px;
+}
+
+.form-group{
+	padding-top:8px;
+}
+.form-control{
+	background-color: black;
+	border:0;
+	border-radius: 0;
+	border-bottom: 2px solid white;
+}
+
+
+
+@media (min-width: 768px) { 
+html,body{
+	height: 100%;
+	font-size: 12px;
+}
+nav a{
+	font-size: 1.2em;
+}
+p{
+	font-size: 1.4em;
+}
+.one{
+	height: 560px;
+	background-size: 82%;
+	background-position: 150px 150px;
+	color: white;
+}
+.one-2{
+	margin-top: 100px;
+}
+.one-2 span{
+	display: block;
+}
+.one h5{
+	font-size: 30px;
+}
+.one h3{
+	font-size: 36px;
+}
+.one-2 h1,h3,h4,h5,p,a{
+	line-height: 1.4em;
+	margin-top: 8px;
+	margin-bottom:0px;
+}
+
+.one-2 .btn{
+	border-radius: 0;
+	border: 1px solid white;
+	background-color: unset;
+	color: white;
+}
+.navbar-brand img{
+	height: 90px;
+}
+.two,.three,.four,.five{
+	padding: 24px;
+}
+
+
+.three img{
+	width: 70%;
+	margin:0 auto;
+}
+.three .btn{
+	border-radius: 0;
+}
+
+.three p,.three h2{
+text-align: left;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+
+.boundary-2{
+	margin-top: 40px;
+width: 100%;
+ border: 2px solid grey;
+ margin-left: -17px;
+ height: 310px;
+ margin-bottom: 32px;
+}
+.form-group{
+	padding-top:0;
+}
+.four{
+	background-color: white;
+	padding-top: 32px;
+	color: black;
+	padding-bottom: 48px;
+	border-bottom: 4px solid teal;
+}
+.four p{
+	padding:8px 0 32px 0;
+	margin-top: 0;
+}
+
+.slide-bottom{
+	width: 220px;
+}
+.four,.five{
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+.five{
+	background-color: grey;
+}
+.five h2{
+	margin-bottom: 48px;
+}
+.five img{
+	height: 60px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+html,body{
+	height: 100%;
+	font-size: 12px;
+}
+nav a{
+	font-size: 1.35em;
+}
+p{
+	font-size: 1.4em;
+}
+.two,.three,.four,.five{
+	padding: 48px;
+}
+
+.two h2{
+	margin-top: 48px;
+}
+
+.one{
+	height: 560px;
+	background-size: 75%;
+	background-position: 220px 130px;
+}
+
+.one-2 span{
+	display: block;
+}
+.navbar-brand img{
+	height: 90px;
+	margin-left: 32px;
+}
+.navbar li{
+	padding-right: 32px;
+}
+.slide-bottom{
+	width: 293.35px;
+}
+.three img{
+	width: 55%;
+	margin:0 auto;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+html,body{
+	height: 100%;
+}
+nav a{
+	font-size: 1.35em;
+}
+p{
+	font-size: 1.4em;
+}
+.one{
+		height: 750px;
+
+	background-size: 82%;
+	background-position: 240px 130px;
+}
+.one-2{
+margin-top: 150px;
+}
+.one-2 span{
+	display: block;
+}
+.navbar li{
+	padding-right: 32px;
+}
+
+.slide-bottom{
+	width: 360.35px;
+}
+.three{
+
+}
+.three p{
+text-align: left;
+}
+
+.three img{
+	width: 60%;
+	margin-bottom: 100px;
+}
+
+.my-form{
+	margin-top: 60px;
+}
+
+.boundary-2{
+ width: 95%;
+ border-left: none;
+ height: 500px;
+}
+}
