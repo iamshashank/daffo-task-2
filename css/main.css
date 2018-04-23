@@ -47,8 +47,9 @@ h2{
 }
 .one-2 h3{
 	color: #44B0CD;
-	font-family: "gotham-book";
-	font-weight: 900;
+	font-family: "bebas";
+	font-size: 32px;
+	font-weight: 600;
 
 }
 .one-2 p{
@@ -85,7 +86,7 @@ text-align: right;
 }
 
 .three img{
-	width: 60%;
+	width: 65%;
 	margin:0 auto;
 	margin-top: 20px;
 }
@@ -202,6 +203,7 @@ h2{
 }
 .nu{
 	font-size: 1.2em;
+	font-weight: 400;
 }
 .one{
 	height: 560px;
@@ -219,8 +221,9 @@ h2{
 	font-size: 24px;
 }
 .one h3{
-	font-size: 36px;
-
+	font-size: 88px;
+	font-weight: 400;
+	letter-spacing: 4px;
 }
 .one-2 h1,h3,h4,h5,p,a{
 	line-height: 1.1em;
@@ -338,12 +341,7 @@ p{
 .one-2 h5{
 	font-size: 32px;
 }
-.one-2 h3{
 
-	font-size: 64px;
-	color: #44B0CD;
-	letter-spacing: -2px;
-}
 .one-2 span{
 	display: block;
 }
@@ -381,10 +379,7 @@ p{
 .one-2{
 margin-top: 150px;
 }
-.one-2 h3{
-	font-size: 64px;
-	color: #44B0CD;
-}
+
 .one-2 span{
 	display: block;
 }
