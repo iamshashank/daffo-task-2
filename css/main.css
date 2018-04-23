@@ -7,7 +7,7 @@
     src: url(../fonts/BebasNeue-webfont.woff);
 }
 body{
-	background-color: #070709;
+	background-color: black;
 	font-size: 12px;
 	font-family: 'gotham-book',serif;
 	letter-spacing: 2px;
@@ -75,7 +75,7 @@ h2{
 	margin-bottom: 32px;
 }
 .three{
-	background-color: #070709;
+	background-color: black;
 	padding-top: 32px;
 	color: white;
 	padding-bottom: 32px;
@@ -286,8 +286,14 @@ width: 100%;
 	padding:8px 0 32px 0;
 	margin-top: 0;
 }
+.active{
+	border-bottom: 2px solid #43B0D1;
+}
 .navbar-nav{
-	margin-top: 70px;
+	margin-top: 55px;
+}
+.navbar-nav li{
+	padding: auto 0;
 }
 .slide-bottom{
 	width: 220px;
@@ -345,9 +351,7 @@ p{
 	height: 90px;
 	margin-left: 32px;
 }
-.navbar li{
-	padding-right: 32px;
-}
+
 .slide-bottom{
 	width: 293.35px;
 }
@@ -384,9 +388,7 @@ margin-top: 150px;
 .one-2 span{
 	display: block;
 }
-.navbar li{
-	padding-right: 32px;
-}
+
 
 .slide-bottom{
 	width: 360.35px;
@@ -406,7 +408,10 @@ text-align: left;
 .my-form{
 	margin-top: 60px;
 }
-
+.navbar-nav li{
+	padding-right:8px;
+	padding-left: 8px;
+}
 .boundary-2{
  width: 95%;
  border-left: none;
