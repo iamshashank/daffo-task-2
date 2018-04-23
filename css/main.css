@@ -1,24 +1,42 @@
+@font-face {
+    font-family: gotham-book;
+    src: url(../fonts/ufonts.com_gotham-book-webfont.woff);
+}
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/BebasNeue-webfont.woff);
+}
 body{
-	background-color: black;
+	background-color: #070709;
 	font-size: 12px;
+	font-family: 'gotham-book',serif;
+	letter-spacing: 2px;
 }
 p{
 	font-size: 1.4em;
 	text-align: justify;
 }
-
+h2{
+	color: #43B0D1;
+	font-weight: bold;
+	font-size: 2.7em;
+}
+.nu{
+	font-size: 1.3em;
+}
 .one{
 	background-color: black;
 	background-image: url('../images/banner-bg.jpg');
 	height: 250px;
 	background-repeat: no-repeat;
 	background-size: 70%;
-	background-position: 110px 75px;
+	background-position: 110px 55px;
 	color: white;
 }
 .one-2{
 
 }
+
 .one-2 span{
 	display: none;
 }
@@ -26,6 +44,12 @@ p{
 	line-height: 1em;
 	margin-top: 5px;
 	margin-bottom:0px;
+}
+.one-2 h3{
+	color: #44B0CD;
+	font-family: "gotham-book";
+	font-weight: 900;
+
 }
 .one-2 p{
 	font-size: 1.1em;
@@ -40,17 +64,18 @@ p{
 .two{
 	background-color: white;
 	padding-top: 32px;
+	color: grey;
 }
 .two p{
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: 32px;
+	margin-bottom: 48px;
 }
 .two img{
 	margin-top: 32px;
 	margin-bottom: 32px;
 }
 .three{
-	background-color: black;
+	background-color: #070709;
 	padding-top: 32px;
 	color: white;
 	padding-bottom: 32px;
@@ -62,6 +87,7 @@ text-align: right;
 .three img{
 	width: 60%;
 	margin:0 auto;
+	margin-top: 20px;
 }
 .three input{
 	padding: 24px;
@@ -81,13 +107,13 @@ width: 90%;
 .four{
 	background-color: white;
 	padding-top: 32px;
-	color: black;
+	color: grey;
 	padding-bottom: 32px;
-	border-bottom: 4px solid teal;
+	border-bottom: 4px solid #43B0D1;
 }
 .four p{
 	padding:32px 0;
-
+	color: grey;
 }
 .carousel-inner{
 	position: relative;
@@ -109,7 +135,7 @@ width: 90%;
 }
 .five{
 
-	background-color: black;
+	background-color: #252525;
 	padding: 32px;
 }
 .five img{
@@ -119,6 +145,7 @@ width: 90%;
 .five .btn{
 	margin:0 auto;
 	display: block;
+	color: #C7C7C7;
 }
 
 .navbar-inverse{
@@ -128,6 +155,7 @@ width: 90%;
 .navbar{
 	height: 80px;
 	margin-top: 8px;
+	margin-bottom: 0;
 	border-radius: 0;
 	border:unset;
 }
@@ -138,8 +166,10 @@ width: 90%;
 .navbar-toggle{
 	margin-top: 15px;
 }
-.collapse{
-	margin-top: 70px;
+.collapse.in{
+	background-color: #070709;
+	position: relative;
+	z-index: 1;
 }
 
 .form-group{
@@ -160,10 +190,18 @@ html,body{
 	font-size: 12px;
 }
 nav a{
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 p{
 	font-size: 1.4em;
+}
+h2{
+	color: #43B0D1;
+	font-weight: bold;
+	font-size: 3em;
+}
+.nu{
+	font-size: 1.2em;
 }
 .one{
 	height: 560px;
@@ -178,22 +216,30 @@ p{
 	display: block;
 }
 .one h5{
-	font-size: 30px;
+	font-size: 24px;
 }
 .one h3{
 	font-size: 36px;
+
 }
 .one-2 h1,h3,h4,h5,p,a{
-	line-height: 1.4em;
+	line-height: 1.1em;
 	margin-top: 8px;
 	margin-bottom:0px;
 }
-
+.one-2 p{
+	font-size: 1.3em;
+	letter-spacing: 1px;
+}
 .one-2 .btn{
 	border-radius: 0;
 	border: 1px solid white;
+	padding: 16px 32px 16px 32px;
+	margin-top: 16px;
 	background-color: unset;
 	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 .navbar-brand img{
 	height: 90px;
@@ -202,7 +248,9 @@ p{
 	padding: 24px;
 }
 
-
+.three{
+	padding-bottom: 60px;
+}
 .three img{
 	width: 70%;
 	margin:0 auto;
@@ -218,7 +266,7 @@ margin-bottom: 16px;
 }
 
 .boundary-2{
-	margin-top: 40px;
+margin-top: 50px;
 width: 100%;
  border: 2px solid grey;
  margin-left: -17px;
@@ -230,7 +278,6 @@ width: 100%;
 }
 .four{
 	background-color: white;
-	padding-top: 32px;
 	color: black;
 	padding-bottom: 48px;
 	border-bottom: 4px solid teal;
@@ -239,16 +286,15 @@ width: 100%;
 	padding:8px 0 32px 0;
 	margin-top: 0;
 }
-
+.navbar-nav{
+	margin-top: 70px;
+}
 .slide-bottom{
 	width: 220px;
 }
 .four,.five{
 	padding-bottom: 100px;
-	padding-top: 50px;
-}
-.five{
-	background-color: grey;
+	padding-top: 100px;
 }
 .five h2{
 	margin-bottom: 48px;
@@ -265,13 +311,13 @@ html,body{
 	font-size: 12px;
 }
 nav a{
-	font-size: 1.35em;
+	font-size: 1.2em;
 }
 p{
 	font-size: 1.4em;
 }
 .two,.three,.four,.five{
-	padding: 48px;
+	padding: auto 48px;
 }
 
 .two h2{
@@ -279,11 +325,19 @@ p{
 }
 
 .one{
-	height: 560px;
+	height: 600px;
 	background-size: 75%;
 	background-position: 220px 130px;
 }
+.one-2 h5{
+	font-size: 32px;
+}
+.one-2 h3{
 
+	font-size: 64px;
+	color: #44B0CD;
+	letter-spacing: -2px;
+}
 .one-2 span{
 	display: block;
 }
@@ -322,6 +376,10 @@ p{
 }
 .one-2{
 margin-top: 150px;
+}
+.one-2 h3{
+	font-size: 64px;
+	color: #44B0CD;
 }
 .one-2 span{
 	display: block;
